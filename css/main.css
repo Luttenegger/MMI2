@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-color: #E6E3E3;
+}
+
+#JotFormIFrame {
+	background-color: white;
+}
+#myCarousel {
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.iframeWrap {
+
+	background-color: #E6E3E3
+;
+	overflow: hidden;
+}
+.navWrap {
+	padding-bottom: 50px;
+}
+
+.carousel-caption {
+	 text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+
+.row h3 {
+	color: #222;
+}
+
+.footer {
+	padding-top: 50px;
+}
+
+.row img {
+	padding-top: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarWrap {
+	color:#1FFF53;
+}
+
+.services {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+@media (max-width:480px) {
+    #myCarousel {
+        display:none !important;
+    }
+    .company {
+        display:none !important;
+    }
+}
+}
+
+@media (min-width:480px) {
+    .company {
+        display:none !important;
+    }
+}
+}
